@@ -71,18 +71,20 @@ section {
 
 .btn {
   cursor: pointer;
-  border: none;
+  border: 0;
+  padding: 6px 12px;
   border-radius: 3px;
-  padding: 6px 12px 6px 12px;
   line-height: 1.4;
 }
 
 .btn-default {
   background-color: #faa541;
+  color: #ffffff;
 }
 
 .btn-primary {
   background-color: #364147;
+  color: #ffffff;
 }
 
 .form-control {
