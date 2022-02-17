@@ -181,12 +181,12 @@ section {
 }
 
 
-.hero {
-  background-image: url("../img/hero.jpg");
-  height: 400px;
-  background-size: cover;
-  background-position: center center;
-  text-transform: uppercase;
+.hero { 
+    background-image: url('../img/hero.jpg'); 
+    height: 400px;
+    background-size: cover;
+    background-position: center center;
+    text-transform: uppercase;
 }
 
 .hero h1 {
@@ -231,10 +231,10 @@ section {
   text-align: center;
 }
 
-.banner-text>div:last-child {
+.banner-text > div:last-child {
   font-size: 16px;
   font-weight: 400;
-  margin: 5px;
+  margin-top: 5px;
 }
 
 .category {
