@@ -335,11 +335,12 @@ section {
 }
 
 footer {
+  display: flex;
   flex-wrap: wrap;
   position: relative;
   z-index: 0;
   min-height: 330px;
-  background-color: black;
+  background-color: #000000;
 }
 
 footer:after {
@@ -348,8 +349,9 @@ footer:after {
   width: 75%;
   position: absolute;
   top: 0;
-  left: 0;
   bottom: 0;
+  left: 0;
+  right: 0;
   z-index: -1;
 }
 
@@ -384,7 +386,8 @@ footer a:hover {
   display: block;
   width: 23px;
   height: 23px;
-  background-size: 23px 23px center;
+  background-size: 23px 23px;
+  background-position: center;
 }
 
 .twitter {
@@ -453,3 +456,9 @@ footer a:hover {
   background: linear-gradient(to right, #f05a28 0, #e80a89 100%);
 }
 
+.copyright {
+  flex: 0 0 75%;
+  padding: 10px 0;
+  font-size: 12px;
+  text-align: center;
+}
